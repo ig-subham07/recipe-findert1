@@ -1,0 +1,23 @@
+/* General body styling */
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+/* Custom scrollbar for the modal for better aesthetics */
+.modal-content::-webkit-scrollbar {
+    width: 8px;
+}
+
+.modal-content::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+
+.modal-content::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+}
+
+.modal-content::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
